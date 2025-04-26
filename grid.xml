@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+   <!---------------------------grid------------------------------------- -->
+
+   <view name="grid">
+ 
+  
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+	 <backgroundColor>FFFFFF</backgroundColor>
+     <fontSize>0.02</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+       <fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+        <zIndex>1</zIndex>
+     </helpsystem>
+	 
+ 	  <image name="neonsmokebg" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/neonsmokebg.png</path>
+		 <color>ffffff</color>
+         <zIndex>1</zIndex>          
+      </image> 
+
+   		<image name="md_marquee">
+			<pos>0.15 0.134</pos>
+			<maxSize>0.253 0.199</maxSize>
+			<origin>0.5 0.5</origin>
+			<linearSmooth>true</linearSmooth>
+   <storyboard event="activate">
+        <animation property="y" from="0.01" begin="0" duration="350" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+			<zIndex>900</zIndex> 
+		</image>
+
+		<image name="grid" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_inc/frames/grid.png</path>
+            <zIndex>999</zIndex>          
+        </image>
+
+		<image name="logo03" extra="true">
+			<origin>0.5 0.5</origin> 
+			<pos>0.05 0.96</pos>
+			<maxSize>0.1 0.1</maxSize>
+		    <path>./_inc/logos/${system.theme}.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>800</zIndex>
+			</image>
+   	
+     <video name="md_video">
+		<color>ffffff</color>
+        <pos>0.66 0.35</pos>
+        <origin>0.5 0.5</origin>
+        <size>0.645 0.59</size>
+		<effect>none</effect>		 
+        <showSnapshotNoVideo>false</showSnapshotNoVideo>
+        <showSnapshotDelay>false</showSnapshotDelay>
+		<zIndex>2</zIndex>
+     </video>
+
+		<text name="md_description">
+			<pos>0.005 0.25</pos>
+			<size>0.3 0.2</size>
+			<color>FFFFFF</color>
+			<fontSize>0.022</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./_inc/fonts/.ttf</fontPath>
+			<alignment>left</alignment>
+			<zIndex>30</zIndex>
+		</text>
+
+	<imagegrid name="gamegrid">
+	  <pos>0.36 0.475</pos>
+      <size>0.6 0.7</size>
+      <padding>0.02 0.02 0.02 0.02</padding>
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>6 1</autoLayout>
+      <autoLayoutSelectedZoom>1.25</autoLayoutSelectedZoom>
+      <margin>0.03 0.03</margin>
+      <centerSelection>false</centerSelection>
+      <scrollLoop>true</scrollLoop>
+      <imageSource>thumb</imageSource>
+      <zIndex>300</zIndex>  
+    </imagegrid>
+    
+<gridtile name="default">
+<padding>1 1</padding>
+<backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+<backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+<imageSizeMode>maxSize</imageSizeMode>
+<imageColor>FFFFFF</imageColor>
+</gridtile>
+
+<gridtile name="selected">
+<backgroundCenterColor>ffffff00</backgroundCenterColor>
+<backgroundEdgeColor>fffffff00</backgroundEdgeColor>
+<padding>0.01 0.01</padding>
+<imageSize>1 1</imageSize>
+<imageColor>FFFFFF</imageColor>
+</gridtile>
+
+</view>
+   
+   </theme>

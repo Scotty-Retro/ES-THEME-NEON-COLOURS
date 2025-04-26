@@ -1,0 +1,33 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+ 	  <image name="controllers" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+	 <maxSize>0.25 0.25</maxSize> 
+         <path>./_inc/controllers/blue/default.png</path>       
+         <path>./_inc/controllers/blue/${system.theme}.png</path>
+		 <color>ffffff</color>
+   <storyboard>
+        <animation property="x" from="-0.35" begin="0" duration="500" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+         <zIndex>999</zIndex>          
+      </image> 
+</view>
+
+<view name="grid">
+
+		<image name="controllers" extra="true">
+			<origin>0.5 0.5</origin> 
+			<pos>0.25 0.825</pos>
+			<maxSize>0.25 0.25</maxSize>
+		    <path>./_inc/controllers/blue/default.png</path>
+		    <path>./_inc/controllers/blue/${system.theme}.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>800</zIndex>
+			</image>
+	  
+	</view>
+</theme>

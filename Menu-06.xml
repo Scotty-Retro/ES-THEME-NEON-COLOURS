@@ -1,0 +1,100 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+     <view name="system">
+
+         <carousel name="systemcarousel">
+          <zIndex>43</zIndex>	      
+          <type>vertical_wheel</type>
+          <pos>0.27 0</pos>
+          <size>1 1</size>
+          <logoSize>0.155 0.155</logoSize>
+          <color>00000000</color>
+          <maxLogoCount>19</maxLogoCount>
+          <logoRotation>-7</logoRotation>
+          <logoRotationOrigin>2.50 0.5</logoRotationOrigin>
+          <logoAlignment>center</logoAlignment>  
+		<defaultTransition>instant</defaultTransition>
+        <zIndex>998</zIndex>     
+         </carousel>
+
+	<image name="controllers" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="char" extra="true">
+		<visible>false</visible>  
+        </image>
+
+     <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>-0.2 0.2</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+        <fontPath>./_inc/fonts/.ttf</fontPath>
+	    <fontSize>0.040</fontSize>
+        <zIndex>999</zIndex>
+     </text> 
+
+
+
+	<image name="logos" extra="true">
+        <pos>0.2 0.05</pos>
+        <maxSize>0.2 0.2</maxSize>
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.png</path>
+		<color>ffffff</color>
+	    <zIndex>999</zIndex>
+	</image>
+	  
+ 	  <image name="neonsmokebg" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/neonsmokebg.png</path>
+		 <color>ffffff</color>
+         <zIndex>1</zIndex>          
+      </image> 
+
+	<image name="menu1frame" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="menu2" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="menu3" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.022</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.275 0.99</pos>
+     <fontPath>./_inc/.ttf</fontPath>
+     </helpsystem>
+	
+		
+      <video name="backgroundvideo" extra="true">
+        <visible>true</visible>
+        <path>{random}</path>            
+    <pos>0.285 0.5</pos>
+        <origin>0.5 0.5</origin>
+        <size>0.385 0.385</size>
+       <roundCorners>0.06</roundCorners> 
+        <delay>0.1</delay>
+        <showSnapshotNoVideo>false</showSnapshotNoVideo>
+        <showSnapshotDelay>false</showSnapshotDelay>
+        <color>FFFFFF</color>
+        <storyboard>
+        <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" duration="350" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+        </storyboard>
+        <zIndex>9</zIndex>
+     </video>
+
+     </view>
+     </theme>
