@@ -17,6 +17,9 @@
 <pos>0 0</pos>
 </carousel>
 
+	<video name="videogrid" extra="true">
+		<visible>false</visible> 
+	</video>
 
      <text name="systemInfo">
 	    <glowColor>000000</glowColor>
@@ -28,6 +31,9 @@
         <zIndex>999</zIndex>
      </text> 
 
+	<image name="grid" extra="true">
+		<visible>false</visible>  
+        </image>
 
 	<image name="menu1" extra="true">
 		<visible>false</visible>  
@@ -53,6 +59,22 @@
 		<visible>false</visible>  
         </image>
 
+	<image name="menu7" extra="true">
+		<visible>false</visible>  
+        </image>
+
+
+	<image name="char6" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="char7" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="wallpapers" extra="true">
+		<visible>false</visible>  
+        </image>
 
 	<video name="bgvideos" extra="true">
 		<path>./default/detailedbackground-d.mp4</path>

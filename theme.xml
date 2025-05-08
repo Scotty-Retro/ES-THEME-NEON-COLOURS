@@ -19,11 +19,48 @@
    <include subset="menu" name="Menu 04">./Menu-04.xml</include>
    <include subset="menu" name="Menu 05">./Menu-05.xml</include>
    <include subset="menu" name="Menu 06">./Menu-06.xml</include>
- 
+   <include subset="menu" name="Menu 07">./Menu-07.xml</include>
+   <include subset="menu" name="Menu 08">./Menu-08.xml</include> 
+   <include subset="menu" name="Menu 09">./Menu-09.xml</include> 
+
    <include subset="logo" name="Logo Simple">./logos.xml</include>
+   <include subset="logo" name="Logo pink">./pink logos.xml</include>
+   <include subset="logo" name="Logo blue">./blue logos.xml</include>
+   <include subset="logo" name="Logo dark blue">./dark blue logos.xml</include>
+   <include subset="logo" name="Logo green">./green logos.xml</include>
+   <include subset="logo" name="Logo orange">./orange logos.xml</include>
+   <include subset="logo" name="Logo purple">./purple logos.xml</include>
+   <include subset="logo" name="Logo red">./red logos.xml</include>
+   <include subset="logo" name="Logo yellow">./yellow logos.xml</include>
+   <include subset="logo" name="Logo purple red">./purple red logos.xml</include>
+   <include subset="logo" name="Logo orange blue">./orange blue logos.xml</include>
+   <include subset="logo" name="Logo yellow green">./yellow green logos.xml</include>
 
    <include subset="characters" name="chars On">./chars-on.xml</include>
    <include subset="characters" name="chars Off">./chars-off.xml</include>
+
+   <include subset="video background color" name="menu7+9 bg video pink">./videogrid-pink.xml</include>
+   <include subset="video background color" name="menu7+9 bg video red">./videogrid-red.xml</include>
+   <include subset="video background color" name="menu7+9 bg video orange">./videogrid-orange.xml</include>
+   <include subset="video background color" name="menu7+9 bg video yellow">./videogrid-yellow.xml</include>
+   <include subset="video background color" name="menu7+9 bg video green">./videogrid-green.xml</include>
+   <include subset="video background color" name="menu7+9 bg video blue">./videogrid-blue.xml</include>
+   <include subset="video background color" name="menu7+9 bg video dark blue">./videogrid-dark blue.xml</include>
+   <include subset="video background color" name="menu7+9 bg video purple">./videogrid-purple.xml</include>
+
+   <include subset="grid background color" name="grid background pink">./grid-pink.xml</include>
+   <include subset="grid background color" name="grid background blue">./grid-blue.xml</include>
+   <include subset="grid background color" name="grid background dark blue">./grid-dark blue.xml</include>
+   <include subset="grid background color" name="grid background green">./grid-green.xml</include>
+   <include subset="grid background color" name="grid background yellow">./grid-yellow.xml</include>
+   <include subset="grid background color" name="grid background purple">./grid-purple.xml</include>
+   <include subset="grid background color" name="grid background red">./grid-red.xml</include>
+   <include subset="grid background color" name="grid background orange">./grid-orange.xml</include>
+
+   <include subset="wallpaper color" name="wallpapers normal">./wallpapers-normal.xml</include>
+   <include subset="wallpaper color" name="wallpapers pink">./wallpapers-pink.xml</include>
+   <include subset="wallpaper color" name="wallpapers blue">./wallpapers-blue.xml</include>
+   <include subset="wallpaper color" name="wallpapers green">./wallpapers-green.xml</include>
 
    <include subset="controller color" name="controller pink">./controller-pink.xml</include>
    <include subset="controller color" name="controller purple">./controller-purple.xml</include>

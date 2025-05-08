@@ -1,4 +1,43 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+<view name="system">
+
+ 	  <image name="char" extra="true">
+		<visible>false</visible>          
+      </image>
+
+	<image name="char6" extra="true">
+		<visible>false</visible>  
+        </image>
+
+ 	  <image name="char7" extra="true">
+		<visible>false</visible>      
+      </image> 
+ 
+</view>
+
+<view name="detailed">
+
+	  <image name="char2" extra="true">
+		<visible>false</visible>       
+      </image> 
+	  
+	</view>
+
+<view name="video">
+
+	  <image name="char3" extra="true">
+		<visible>false</visible>        
+      </image> 
+
+	</view>
+
+<view name="gamecarousel">
+
+ 	  <image name="char4" extra="true">
+		<visible>false</visible>          
+      </image> 
+</view>
 </theme>
+

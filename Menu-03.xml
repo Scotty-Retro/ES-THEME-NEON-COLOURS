@@ -6,7 +6,7 @@
          <carousel name="systemcarousel">
           <zIndex>43</zIndex>	      
           <type>vertical_wheel</type>
-          <pos>-0.4 0.05</pos>
+          <pos>-0.4 0.045</pos>
           <size>1 0.9</size>
           <logoSize>0.15 0.15</logoSize>
           <color>00000000</color>
@@ -16,6 +16,10 @@
           <logoAlignment>center</logoAlignment>  
 		<defaultTransition>instant</defaultTransition>	     
          </carousel>
+
+	<video name="videogrid" extra="true">
+		<visible>false</visible> 
+	</video>
 
 	<image name="menu1frame" extra="true">
 		<visible>false</visible>  
@@ -29,7 +33,23 @@
 		<visible>false</visible>  
         </image>
 
+	<image name="wallpapers" extra="true">
+		<visible>false</visible>  
+        </image>
+
 	<image name="menu6" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="menu7" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="char6" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="char7" extra="true">
 		<visible>false</visible>  
         </image>
 

@@ -18,11 +18,27 @@
         <zIndex>998</zIndex>     
          </carousel>
 
+	<video name="videogrid" extra="true">
+		<visible>false</visible> 
+	</video>
+
 	<image name="controllers" extra="true">
 		<visible>false</visible>  
         </image>
 
 	<image name="char" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="char7" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="menu7" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="wallpapers" extra="true">
 		<visible>false</visible>  
         </image>
 

@@ -28,6 +28,13 @@
         <zIndex>999</zIndex>
      </text> 
 
+	<video name="videogrid" extra="true">
+		<visible>false</visible> 
+	</video>
+
+	<image name="grid" extra="true">
+		<visible>false</visible>  
+        </image>
 
 	<image name="menu1" extra="true">
 		<visible>false</visible>  
@@ -45,17 +52,9 @@
 		<visible>false</visible>  
         </image>
 
-	   <image name="wallpapers" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>./_inc/wallpapers/${system.theme}.jpg</path>
-   <storyboard>
-        <animation property="x" from="-0.35" begin="0" duration="500" autoreverse="false" mode="easyInOut"/>
-		</storyboard>
-         <zIndex>1</zIndex>          
-      </image> 
-
+	<image name="menu7" extra="true">
+		<visible>false</visible>  
+        </image>
 
 	<image name="logotype1" extra="true">
 		<pos>0.375 0.02</pos>

@@ -1,0 +1,27 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+ 	  <image name="grid" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/grid purple.png</path>
+		 <color>ffffff</color>
+         <zIndex>1</zIndex>          
+      </image>  
+</view>
+
+<view name="grid">
+
+ 	  <image name="grid" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/grid purple.png</path>
+		 <color>ffffff</color>
+         <zIndex>1</zIndex>          
+      </image>  
+	</view>
+</theme>

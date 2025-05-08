@@ -1,0 +1,15 @@
+<theme>
+<view name="system">
+	   <image name="wallpapers" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/wallpapers green/${system.theme}.jpg</path>
+   <storyboard>
+        <animation property="x" from="-0.35" begin="0" duration="500" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+         <zIndex>1</zIndex>          
+      </image> 
+	  
+	</view>
+</theme>

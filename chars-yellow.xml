@@ -15,6 +15,33 @@
 		</storyboard>
          <zIndex>999</zIndex>          
       </image> 
+
+ 	  <image name="char6" extra="true">
+         <origin>0 0</origin>
+         <pos>0.4 0.7</pos>
+         <size>0.3 0.3</size> 
+         <path>./_inc/chars yellow/default.png</path>       
+         <path>./_inc/chars yellow/${system.theme}.png</path>
+		 <color>ffffff</color>
+   <storyboard>
+        <animation property="x" from="1.25" begin="0" duration="500" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+         <zIndex>999</zIndex>          
+      </image> 
+
+ 	  <image name="char7" extra="true">
+         <origin>0 0</origin>
+         <pos>0.695 -0.025</pos>
+         <size>0.3 0.3</size> 
+         <path>./_inc/chars yellow/default.png</path>       
+         <path>./_inc/chars yellow/${system.theme}.png</path>
+		 <color>ffffff</color>
+   <storyboard>
+        <animation property="x" from="1.25" begin="0" duration="500" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+         <zIndex>999</zIndex>          
+      </image> 
+
 </view>
 
 <view name="detailed">
