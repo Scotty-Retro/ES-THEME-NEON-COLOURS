@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>  
+ <view name="video"> 
+
+	<image name="videoframe" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_inc/frames/videoframeorange.png</path>
+            <zIndex>999</zIndex>          
+        </image>
+
+      <rating name="md_rating">
+         <color>ffffff</color>
+         <zIndex>999</zIndex>       
+         <pos>0.399 0.692</pos>
+         <size>0.039 0.039</size>
+         <filledPath>./_inc/images/star_orange.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+      </rating>
+   </view>
+
+   <view name="grid"> 
+
+	<image name="gridframe" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_inc/frames/gridorange.png</path>
+            <zIndex>10</zIndex>          
+        </image>
+   </view>
+
+   <view name="basic"> 
+
+	<image name="basictop" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_inc/frames/basictoporange.png</path>
+            <zIndex>999</zIndex>          
+        </image>
+
+	   <image name="basic" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/basicorange.png</path>
+		 <zIndex>1</zIndex>
+      </image>
+   </view>
+
+
+   <view name="detailed"> 
+
+	<image name="detailed frame" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_inc/frames/detailedframeorange.png</path>
+            <zIndex>999</zIndex>          
+        </image>
+
+      <rating name="md_rating">
+         <color>ffffff</color>
+         <zIndex>999</zIndex>       
+         <pos>0.399 0.69</pos>
+         <size>0.039 0.039</size>
+         <filledPath>./_inc/images/star_orange.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+      </rating>
+   </view>
+
+   <view name="gamecarousel"> 
+
+	<image name="menu1frame" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_inc/frames/menu1bgorange.png</path>
+            <zIndex>10</zIndex>          
+        </image>
+
+	  <image name="cabs" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/frames/caborange.png</path>
+		 <color>ffffff</color>
+         <zIndex>10</zIndex>          
+      </image>
+
+       <rating name="md_rating">
+         <zIndex>999</zIndex>  
+         <pos>0.25 0.923</pos>
+         <size>0.04 0.04</size>     
+         <filledPath>./_inc/images/star_orange.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+      </rating>
+   </view>
+
+   <view name="system"> 
+
+	<image name="menu1frame" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_inc/frames/menu1bgorange.png</path>
+            <zIndex>10</zIndex>          
+        </image>
+
+ 	  <image name="menu2" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/frames/menu2orange.png</path>
+		 <color>ffffff</color>
+         <zIndex>998</zIndex> 
+        </image>
+
+ 	  <image name="menu3" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc//frames/menu3orange.png</path>
+		 <color>ffffff</color>
+         <zIndex>3</zIndex> 
+        </image>
+
+	  <image name="menu6" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/frames/caborange.png</path>
+		 <color>ffffff</color>
+         <zIndex>10</zIndex>          
+      </image> 
+
+ 	  <image name="menu7" extra="true">
+         <origin>0 0</origin>
+          <pos>0.1 0</pos>
+         <size>0.8 0.8</size>       
+         <path>./_inc/frames/orange logo frame.png</path>
+		 <color>ffffff</color>
+         <zIndex>10</zIndex>  
+      </image>
+   </view>
+  
+   </theme>
