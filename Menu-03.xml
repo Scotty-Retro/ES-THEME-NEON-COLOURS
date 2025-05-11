@@ -17,6 +17,18 @@
 		<defaultTransition>instant</defaultTransition>	     
          </carousel>
 
+	<image name="menu1 pointer" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="pointer right" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="pointer left" extra="true">
+		<visible>false</visible>  
+        </image>
+
 	<video name="videogrid" extra="true">
 		<visible>false</visible> 
 	</video>

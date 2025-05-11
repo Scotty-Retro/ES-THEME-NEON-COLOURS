@@ -28,6 +28,14 @@
         <zIndex>999</zIndex>
      </text> 
 
+	<image name="pointer right" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="pointer left" extra="true">
+		<visible>false</visible>  
+        </image>
+
 	<image name="menu2" extra="true">
 		<visible>false</visible>  
         </image>

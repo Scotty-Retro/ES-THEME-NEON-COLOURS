@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>  
+   <view name="system"> 
+
+<image name="pointer right" extra="true">
+<pos>0.88 0.625</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.20 0.20</maxSize>
+<path>./_inc/pointers/horizontal pointer blue right.png</path>
+<storyboard repeat="forever">
+<animation property="x" from="0.88" to="0.95" duration="1000" autoreverse="true" begin="100" repeat="forever"/>
+</storyboard>
+<zIndex>90</zIndex> 
+</image>
+
+<image name="pointer left" extra="true">
+<pos>0.15 0.625</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.20 0.20</maxSize>
+<path>./_inc/pointers/horizontal pointer blue left.png</path>
+<storyboard repeat="forever">
+<animation property="x" from="0.05" to="0.12" duration="1000" autoreverse="true" begin="100" repeat="forever"/>
+</storyboard>
+<zIndex>90</zIndex> 
+</image>
+
+<image name="menu1 pointer" extra="true">
+<pos>0 0</pos>
+<origin>0 0</origin>
+<maxSize>1 1</maxSize>
+<path>./_inc/pointers/menu1blue.png</path>
+<storyboard repeat="forever">
+<animation property="x" from="-0.095" to="0.1" duration="1000" autoreverse="true" begin="100" repeat="forever"/>
+</storyboard>
+<zIndex>90</zIndex> 
+</image>
+   </view>
+  
+   </theme>

@@ -28,6 +28,9 @@
         <zIndex>999</zIndex>
      </text> 
 
+         <image name="menu1 pointer" extra="true">
+		<visible>false</visible> 
+         </image>
 
 	<image name="menu1frame" extra="true">
 		<visible>false</visible>  

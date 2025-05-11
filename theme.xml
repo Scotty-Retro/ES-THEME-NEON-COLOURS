@@ -88,6 +88,16 @@
     <include subset="frame color" name="Color red">./_inc/frames/red.xml</include>
     <include subset="frame color" name="Color orange">./_inc/frames/orange.xml</include>
     <include subset="frame color" name="Color purple">./_inc/frames/purple.xml</include>
+
+
+    <include subset="pointer color" name="Color pink">./_inc/pointers/pink.xml</include>
+    <include subset="pointer color" name="Color green">./_inc/pointers/green.xml</include>
+    <include subset="pointer color" name="Color red">./_inc/pointers/red.xml</include>
+    <include subset="pointer color" name="Color blue">./_inc/pointers/blue.xml</include>
+    <include subset="pointer color" name="Color dark blue">./_inc/pointers/dark blue.xml</include>
+    <include subset="pointer color" name="Color orange">./_inc/pointers/orange.xml</include>
+    <include subset="pointer color" name="Color yellow">./_inc/pointers/yellow.xml</include>
+    <include subset="pointer color" name="Color purple">./_inc/pointers/purple.xml</include>
   
     <include subset="color" name="Color Default">./_inc/color/Default.xml</include>
     <include subset="color" name="Color Dark">./_inc/color/Dark.xml</include>
