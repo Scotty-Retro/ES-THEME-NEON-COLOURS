@@ -36,6 +36,10 @@
 		<visible>false</visible>  
         </image>
 
+	<image name="pointer left6" extra="true">
+		<visible>false</visible>  
+        </image>
+
 	<image name="menu2" extra="true">
 		<visible>false</visible>  
         </image>

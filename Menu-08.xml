@@ -17,6 +17,10 @@
 <pos>0 0.31</pos>
 </carousel>
 
+	<image name="pointer left6" extra="true">
+		<visible>false</visible>  
+        </image>
+
 
          <image name="menu1 pointer" extra="true">
 		<visible>false</visible> 

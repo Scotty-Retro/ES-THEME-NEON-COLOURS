@@ -158,7 +158,7 @@
       </text>
       <text name="md_genre">
          <pos>0.16 0.69</pos>
-         <size>0.16 0.035</size>
+         <size>0.15 0.035</size>
          <color>ffffff</color>         
          <zIndex>5</zIndex>         
       </text>   

@@ -28,6 +28,10 @@
 		<visible>false</visible>  
         </image>
 
+	<image name="pointer left6" extra="true">
+		<visible>false</visible>  
+        </image>
+
 	<video name="videogrid" extra="true">
 		<visible>false</visible> 
 	</video>

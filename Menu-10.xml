@@ -1,0 +1,154 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+     <view name="system">
+
+<carousel name="systemcarousel">
+<defaultTransition>fade</defaultTransition>
+<zIndex>999</zIndex>
+<maxLogoCount>1</maxLogoCount>
+<color>ffffff00</color>
+<colorEnd>ffffff00</colorEnd>
+<color>00000000</color>
+<colorEnd>00000000</colorEnd>
+<logoSize>0.65 0.65</logoSize>
+<logoScale>0.4</logoScale>
+<size>1 1</size>
+<pos>0 0.325</pos>
+</carousel>
+
+    <image name="randommarquee" extra="true">
+      <path>{random:marquee}</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.18 0.3</pos>
+			<maxSize>0.2 0.2</maxSize>
+		<storyboard repeat="forever">
+			<animation property="offsetX" from="0.05" to="0" begin="1650" duration="150" mode="EaseOut"/>
+			<animation property="offsetX" from="0" to="-0.05" begin="4150" duration="300" mode="EaseIn"/>
+			<animation property="opacity" from="0" to="1" begin="1650" duration="150" mode="Linear"/>
+			<animation property="opacity" from="1" to="0" begin="4150" duration="150" mode="Linear"/>
+			<animation property="opacity" from="0" to="0" begin="4300" duration="5700" mode="Linear"/>
+
+			<animation property="offsetY" from="0" to="0" duration="10000" mode="linear"/>
+		</storyboard>
+      <zIndex>999</zIndex>
+    </image>
+
+    <image name="randommarquee2" extra="true">
+      <path>{random:marquee}</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.3</pos>
+			<maxSize>0.2 0.2</maxSize>
+		<storyboard repeat="forever">
+			<animation property="offsetX" from="0.05" to="0" begin="1800" duration="150" mode="EaseOut"/>
+			<animation property="offsetX" from="0" to="-0.05" begin="4150" duration="300" mode="EaseIn"/>
+			<animation property="opacity" from="0" to="1" begin="1800" duration="150" mode="Linear"/>
+			<animation property="opacity" from="1" to="0" begin="4150" duration="150" mode="Linear"/>
+			<animation property="opacity" from="0" to="0" begin="4300" duration="5700" mode="Linear"/>
+
+			<animation property="offsetY" from="0" to="0" duration="10000" mode="linear"/>
+		</storyboard>
+      <zIndex>999</zIndex>
+    </image>
+
+    <image name="randommarquee3" extra="true">
+      <path>{random:marquee}</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.78 0.3</pos>
+			<maxSize>0.2 0.2</maxSize>
+		<storyboard repeat="forever">
+			<animation property="offsetX" from="0.05" to="0" begin="1800" duration="150" mode="EaseOut"/>
+			<animation property="offsetX" from="0" to="-0.05" begin="4150" duration="300" mode="EaseIn"/>
+			<animation property="opacity" from="0" to="1" begin="1800" duration="150" mode="Linear"/>
+			<animation property="opacity" from="1" to="0" begin="4150" duration="150" mode="Linear"/>
+			<animation property="opacity" from="0" to="0" begin="4300" duration="5700" mode="Linear"/>
+
+			<animation property="offsetY" from="0" to="0" duration="10000" mode="linear"/>
+		</storyboard>
+      <zIndex>999</zIndex>
+    </image>
+
+     <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>0 0.675</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+        <fontPath>./_inc/fonts/.ttf</fontPath>
+	    <fontSize>0.040</fontSize>
+        <zIndex>999</zIndex>
+     </text> 
+
+         <image name="char" extra="true">
+		<visible>false</visible> 
+         </image>
+
+         <image name="pointer right" extra="true">
+		<visible>false</visible> 
+         </image>
+
+         <image name="pointer left" extra="true">
+		<visible>false</visible> 
+         </image>
+
+	<image name="pointer left6" extra="true">
+		<visible>false</visible>  
+        </image>
+
+         <image name="menu1 pointer" extra="true">
+		<visible>true</visible> 
+         </image>
+
+	<image name="grid" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="menu1frame" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="menu2" extra="true">
+		<visible>false</visible>  
+        </image>
+         
+	<image name="menu3" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="menu4" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="menu5" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="menu6" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="menu7" extra="true">
+		<visible>false</visible>  
+        </image>
+
+
+	<image name="char6" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="char7" extra="true">
+		<visible>false</visible>  
+        </image>
+
+	<image name="wallpapers" extra="true">
+		<visible>false</visible>  
+        </image>
+ 	 
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.022</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.98</pos>
+     <fontPath>./_inc/.ttf</fontPath>
+     </helpsystem>
+     </view>
+     </theme>
