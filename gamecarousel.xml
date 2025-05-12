@@ -37,7 +37,10 @@
         <fontPath>./_inc/fonts/.ttf</fontPath>
         <fontSize>0.030</fontSize>
     </text>	
-	
+
+	<image name="pointer left6" extra="true">
+		<visible>false</visible>  
+        </image>	
 
 	<image name="cabs" extra="true">
 		<visible>false</visible>  
