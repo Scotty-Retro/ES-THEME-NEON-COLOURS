@@ -93,7 +93,7 @@
         </image>
 
 	<video name="bgvideos" extra="true">
-		<path>./default/detailedbackground-d.mp4</path>
+         <default>./_inc/logo.mp4</default>
 		<path>./_inc/bgvids/${system.theme}.mp4</path>
 		<size>1 1</size>
 		<pos>0 0</pos>
